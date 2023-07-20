@@ -1,0 +1,87 @@
+.portfolio {
+  padding: 4rem 6rem;
+  background-color: #f6f6f6;
+}
+.portfolio-header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.portfolio-header hr {
+  width: 50px;
+}
+.portfolio-header p {
+color: #cdbfbf;
+}
+
+.portfolio-navigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.filter-item {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-item.active {
+  background-color: transparent;
+  color: #0e8a7b;
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  margin: 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-name {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.product-description {
+  margin-top: 0.5rem;
+}
+
+
+@media screen and (max-width: 700px) {
+  .portfolio   {
+    padding: 1rem;
+    
+  }
+  .portfolio-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .filter-item {
+    max-width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+ 
+  .portfolio-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .filter-item {
+    max-width: 100%;
+  }
+
+}
+

@@ -1,0 +1,154 @@
+.about-us {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 4rem 6rem;
+   
+}
+.about-us-heading {
+  justify-content: center;
+  align-items: center;
+}
+.horizontal-line{
+width: 50px;
+border-top: 3px solid rgb(0, 131, 116);;
+justify-content: center;
+align-items: center;
+}
+.about-us-heading h1 {
+  color: #222222;
+}
+.about-us-heading  p{
+  color: #b9b9b9;
+  
+}
+.About-us-details{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.About-us-image {
+  max-width: 50%;
+  margin: 20px;
+  text-align: left;
+}
+.About-us-image img {
+  width: 220;
+  height: 420;
+  border-radius: 5%;
+  max-width: 100%;
+}
+.about-us-video {
+  max-width: 50%;
+  margin-left: 20px;
+  text-align: left;
+}
+.about-us-video img {
+  width: 220;
+  height: 420;
+  border-radius: 5%;
+  max-width: 100%;
+}
+.about-play-icon {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -300px;
+}
+.about-play-icon i {
+ background-color: #008374;
+ font-size: 50px;
+ border: 2px solid #008374;;
+ border-radius: 50%;
+ color: #ffffff;
+}
+.About-us-client {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 10px;
+  text-align: left;
+}
+.about-us-client-image {
+  max-width: 100%;
+}
+.about-us-client-image img{
+  width: 50%;
+}
+.about-us-stat {
+  display: flex;
+  justify-content: space-between;
+  /* padding: auto; */
+}
+.about-us-stat img {
+  width: 100%;
+}
+.start-text-contents {
+  margin-top: 15px;
+  padding: 20px;
+  text-align: left;
+}
+.starts-text {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.starts-text-grean {
+  color: #008374;
+  font-size: 500px;
+  margin-right: 20px;
+}
+.starts-text-exp {
+  text-align: left;
+ 
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .about-us{
+   padding: 1rem;
+   align-items: left;
+   justify-content: left;
+  }
+  .about-play-icon {
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-us{
+   padding: 1rem;
+   align-items: center;
+   justify-content: center;
+  }
+  .about-play-icon {
+    margin-top: -150px;
+  }
+  .About-us-details{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .About-us-image {
+    width: 100%;
+    max-width: 100%;
+     margin-bottom: 20px; 
+    text-align: left;
+  }
+  .about-us-video {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 6rem;
+    text-align: left;
+  }
+  .about-us-stat {
+    
+    flex-direction: column;
+  }
+  .client-hide {
+    display: none;
+  }
+}

@@ -1,0 +1,149 @@
+.pricing-section {
+  padding: 4rem 6rem;
+  background-color: #f6f6f6;
+}
+
+.pricing-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pricing-hr {
+  width: 10%;
+  margin: 1rem auto;
+  border: none;
+  border-top: 2px solid #ccc;
+  color: #008374;
+}
+
+.pricing-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  position: relative;
+}
+
+.pricing-card:hover {
+  border: 3px solid #008374;
+  transform: scale(0.95);
+  border-radius: 3rem;
+}
+
+.pricing-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #008374;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 30px #008374;
+}
+
+.pricing-icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.pricing-title {
+  color: #555555;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.pricing-price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.price-currency{
+  color: #f85a40;
+  font-size: 2rem;
+}
+.price-value {
+  color: #f85a40;
+  font-size: 5rem;
+}
+.price-period {
+  color: #a6acb0;
+  font-size: 1rem;
+}
+.pricing-features {
+  margin-bottom: 1rem;
+}
+
+.pricing-feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.feature-icon {
+  margin-right: 0.5rem;
+  color:#0b9956;
+}
+
+.pricing-not-included {
+  margin-bottom: 1rem;
+}
+
+.not-included-feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.not-included-icon {
+  margin-right: 0.5rem;
+  color: #b7bbbf;
+}
+
+.buy-now-button {
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  color: #008374;
+  border: 2px solid #008374;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media screen and (max-width: 700px) {
+  .pricing-section {
+    padding: 1rem;
+  }
+ 
+
+}
+
+@media screen and (max-width: 500px) {
+  .pricing-section {
+    padding: 1rem;
+  }
+  .pricing-card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .pricing-container {
+    display: block;
+  }
+}

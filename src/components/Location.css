@@ -1,0 +1,54 @@
+.location {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+}
+
+.location-contents {
+  flex: 1;
+  margin: 20px;
+  margin-top: -150px;
+  padding: 4rem 4rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #008d7d;
+  text-align: center;
+}
+
+.location-contents i {
+  font-size: 30px;
+  color: #99d1cb;
+  margin: 10px;
+}
+
+.location-contents h4 {
+  color: #fcfdfd;
+}
+
+/* Tablet screens */
+@media screen and (max-width: 700px) {
+  .location  {
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: #008374;
+  }
+  .location-contents{
+    width: 50%;
+    margin: 0.5rem;
+    box-shadow: #008d7d;
+  }
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .location {
+    padding: 1rem;
+  }
+  .testimonial-slide {
+    width: 100%;
+   margin: 1rem;
+  }
+
+}

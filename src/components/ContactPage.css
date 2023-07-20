@@ -1,0 +1,135 @@
+.contact-page {
+  padding: 4rem 6rem;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-heading h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-hr {
+  width: 10%;
+  margin: 1rem auto;
+  border: none;
+  border-top: 2px solid #008374;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-info-left {
+  background-color: #007f70;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: #009282;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.contact-icon {
+  background-color: #009282;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.contact-icon i {
+  color: #33a89b;
+  font-size: 2rem;
+}
+
+.contact-details h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.contact-details p {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.contact-form {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+textarea {
+  height: 200px;
+}
+.form-button {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-button {
+  width: 200px;
+  padding: 0.75rem 1.5rem;
+  background-color: #008374;
+  color: #9ed0ca;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #005c53;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .contact-page {
+    padding: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .contact-page {
+    padding: 1rem;
+  }
+  .contact-info {
+    flex-direction: column;
+  }
+}

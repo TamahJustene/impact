@@ -1,0 +1,98 @@
+
+.footer-start {
+  background-color: #008374;
+  padding: 4rem 6rem;
+  display: block;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-grow: 1;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.big-colum {
+  max-width: 33.33%;
+}
+
+.column h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #009282;
+  margin-right: 0.5rem;
+}
+
+.social-icons i {
+  color: #fff;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.bottom-row {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.right-text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.right-text p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.design-by p {
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+  .footer-start {
+    padding: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .footer-start {
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-icons {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
